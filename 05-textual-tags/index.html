@@ -37,21 +37,25 @@ Textual tags in HTML are used to structure and format text content on a webpage.
       amet consectetur adipisicing elit. <br />
       Quo, obcaecati.
     </p>
-<!-- b / strong
+    <!-- b / strong
 The <b> and <strong> tags in HTML are used to make text appear bold. While both achieve a similar visual effect, the <b> tag is primarily for stylistic purposes, indicating text that should be visually distinguished without necessarily conveying importance. On the other hand, the <strong> tag signifies that the enclosed text has strong importance, seriousness, or urgency. -->
-    <p>Lorem ipsum dolor sit, <b>amet</b> consectetur adipisicing elit.<strong> Impedit distinctio sapiente nesciunt.</strong></p>
-
+    <p>
+      Lorem ipsum dolor sit, <b>amet</b> consectetur adipisicing elit.<strong>
+        Impedit distinctio sapiente nesciunt.</strong
+      >
+    </p>
 
     <!-- strong -->
     <p>
-  Before proceeding, <strong>make sure you put on your safety goggles</strong>.
-</p>
+      Before proceeding,
+      <strong>make sure you put on your safety goggles</strong>.
+    </p>
 
-<!-- pre
+    <!-- pre
 The <pre> tag in HTML represents preformatted text. Text inside a <pre> element is displayed in a fixed-width font, and it preserves both spaces and line breaks. This is useful for displaying code snippets, ASCII art, or any other text where formatting is important. -->
 
-  <figure>
-  <pre role="img" aria-label="ASCII COW">
+    <figure>
+      <pre role="img" aria-label="ASCII COW">
       ___________________________
   &lt; I'm an expert in my field. &gt;
       ---------------------------
@@ -60,14 +64,15 @@ The <pre> tag in HTML represents preformatted text. Text inside a <pre> element 
               (__)\       )\/\
                   ||----w |
                   ||     ||
-  </pre>
-  <figcaption id="cow-caption">
-    A cow saying, "I'm an expert in my field." The cow is illustrated using
-    preformatted text characters.
-  </figcaption>
-</figure>
+  </pre
+      >
+      <figcaption id="cow-caption">
+        A cow saying, "I'm an expert in my field." The cow is illustrated using
+        preformatted text characters.
+      </figcaption>
+    </figure>
 
-<pre>
+    <pre>
              S
              A
             LUT
@@ -86,23 +91,36 @@ The <pre> tag in HTML represents preformatted text. Text inside a <pre> element 
     T O U             JOURS
    AUX                  A  L
  LEM                      ANDS   - Apollinaire
-</pre>
+</pre
+    >
 
-
-<!-- i / em
+    <!-- i / em
 The <i> and <em> tags in HTML are used to emphasize text. The <i> tag represents text that is set off from the normal prose, such as technical terms, foreign words, or thoughts. The <em> tag represents stress emphasis of its contents. While both may render similarly in browsers (often as italicized text), <em> has semantic meaning, indicating importance, whereas <i> is purely presentational. -->
 
-<p>Get out of bed <em>now</em>!</p>
-<p>we <em>had</em> to do something about it.</p>
-<p>This is not a <em>drill</em></p>
+    <p>Get out of bed <em>now</em>!</p>
+    <p>we <em>had</em> to do something about it.</p>
+    <p>This is not a <em>drill</em></p>
 
+    <p>I want to see a blue whale (<i>Balaenoptera musculus</i>)</p>
 
-<p>I want to see a blue whale (<i>Balaenoptera musculus</i>)</p>
+    <hr />
 
-<hr>
-
-<!-- Mark Text
+    <!-- Mark Text
 The <mark> tag in HTML is used to highlight specific parts of text within a larger block of content. It's primarily intended to draw the reader's attention to these sections, often because they are relevant to the user's current activity or search query. The default styling usually renders the marked text with a yellow background, but this can be customized using CSS. -->
-  <p><mark>Lorem</mark>, ipsum dolor sit amet consectetur adipisicing elit. Veniam odio eaque accusamus doloremque exercitationem error dolore animi, iure quibusdam deserunt vitae laboriosam, excepturi quidem nihil dolorem a facilis veritatis adipisci.</p>
+    <p>
+      <mark>Lorem</mark>, ipsum dolor sit amet consectetur adipisicing elit.
+      Veniam odio eaque accusamus doloremque exercitationem error dolore animi,
+      iure quibusdam deserunt vitae laboriosam, excepturi quidem nihil dolorem a
+      facilis veritatis adipisci.
+    </p>
+
+    <!-- Subscript Text
+The <sub> tag in HTML is used to display text as subscript. Subscript text appears slightly below the normal line of text and is typically rendered in a smaller font size. It's commonly used for mathematical formulas, chemical formulas, or footnotes. -->
+
+    H<sub>2</sub>O
+    <br />
+    2<sup>4</sup>
+    <br />
+    (a+b)<sup>2</sup>=a<sup>2</sup>+b<sup>2</sup>+2ab
   </body>
 </html>
