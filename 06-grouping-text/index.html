@@ -4,6 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Grouping Text</title>
+  <style>
+    .ingredients{
+      color: red;
+    }
+
+    li span{
+      background: gold;
+    }
+  </style>
 </head>
 <body>
   <!-- The <div> HTML element is the generic container for flow content. It has no effect on the content or layout until styled in some way using CSS -->
@@ -12,5 +21,15 @@
       Any kind of content here. Such as &lt;p&gt;, &lt;table&gt;. You name it!
     </p>
   </div>
+
+  <!-- The <span> HTML element is a generic inline container for phrasing content, which does not inherently represent anything. It can be used to group elements for styling purposes (using the class or id attributes), or because they share attribute values, such as lang. It should be used only when no other semantic element is appropriate. <span> is very much like a <div> element, but <div> is a block-level element whereas a <span> is an inline-level element. -->
+
+    <p><span>some text</span></p>
+
+    <p>Add the <span class="ingredients">basil</span>, <span class="ingredients">pine nuts</span> and <span class="ingredients">garlic</span> to a blender and blend into a paste.</p>
+
+    <li><span>
+      <a href="portfolio.html" target="_blank">See my portfolio</a>
+    </span></li>
 </body>
 </html>
