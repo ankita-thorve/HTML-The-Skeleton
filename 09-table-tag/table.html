@@ -17,7 +17,7 @@ A table is a structured set of data made up of rows and columns (tabular data). 
       </tr>
     </table> -->
 
-    <table border="1" style="border-collapse: collapse;">
+    <table border="1" style="border-collapse: collapse">
       <thead>
         <tr>
           <th>S.N.</th>
@@ -46,6 +46,48 @@ A table is a structured set of data made up of rows and columns (tabular data). 
         <td>&nbsp</td>
         <td>Total</td>
         <td>5</td>
+      </tfoot>
+    </table>
+    <br />
+
+    <table border="1" style="border-collapse: collapse;">
+      <caption>This is how I spend my day!</caption>
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Activity</th>
+        </tr>
+
+        <tr>
+          <td>
+            <time datetime="08:00">8am</time>-<time datetime="11:00">11am</time>
+          </td>
+          <td>Write Code</td>
+        </tr>
+        <tr>
+          <td>
+            <time datetime="11:00">11am</time>-<time datetime="12:00"
+              >12pm</time
+            >
+          </td>
+          <td>Eat Lunch</td>
+        </tr>
+        <tr>
+          <td>
+            <time datetime="12:00">12pm</time>-<time datetime="17:00">5pm</time>
+          </td>
+          <td>Study for other courses</td>
+        </tr>
+        <tr>
+          <td rowspan="2">All Other Times</td>
+          <td>Free Time</td>
+        </tr>
+        <tr>
+          <td>Sleep</td>
+        </tr>
+      </thead>
+      <tfoot>
+        <tr><td colspan="2">All I want to eat, sleep, and code all day and ReCharge!</td></tr>
       </tfoot>
     </table>
   </body>
