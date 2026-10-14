@@ -6,7 +6,7 @@
     <title>HTML Forms</title>
   </head>
   <body>
-    <form action="action_page.php" method="post">
+    <form action="action_page.php" method="post" enctype="multipart/form-data">
       <div>
         <label for="fname">First Name:</label>
         <input
@@ -15,6 +15,7 @@
           name="fname"
           placeholder="Spongebob"
           required
+          size="10"
         />
       </div>
       <br />
@@ -36,6 +37,17 @@
           id="email"
           name="email"
           placeholder="Spants@gmail.com"
+        />
+      </div>
+      <br />
+
+      <div>
+        <label for="phone">Phone Number:</label>
+        <input
+          type="tel"
+          name="phone"
+          id="phone"
+          pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
         />
       </div>
       <br />
@@ -82,6 +94,17 @@
       <div>
         <label for="subscribe">Subscribe</label>
         <input type="checkbox" id="subscribe" name="subscribe" />
+      </div>
+      <br />
+
+      <div>
+        <label for="avatar">Choose a profile picture:</label>
+        <input
+          type="file"
+          name="avatar"
+          id="avatar"
+          accept="image/png, image/jpeg"
+        />
       </div>
       <br />
       <div>
