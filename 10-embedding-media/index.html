@@ -11,6 +11,9 @@
       width: 300px;
       height: 200px;
     }
+    span{
+      color: blue;
+    }
   </style>
 </head>
 <body>
@@ -76,5 +79,19 @@ The attribute should be used sparingly, as excessive or incorrect prioritization
 <br>
 <h2>YouTube url Video</h2>
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/gX0CmJa5Gdk?si=dO1U7kpyoLB2iiGJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<hr>
+<h2>Content Security Policy (CSP)</h2>
+<p>Content Security Policy (CSP) is a feature that helps to prevent or minimize the risk of certain types of security threats. It consists of a series of instructions from a website to a browser, which instruct the browser to place restrictions on the things that the code comprising the site is allowed to do. <br>
+The primary use case for CSP is to control which resources, in particular JavaScript resources, a document is allowed to load. This is mainly used as a defense against cross-site scripting (XSS) attacks, in which an attacker is able to inject malicious code into the victim's site. <br>
+A CSP can have other purposes as well, including defending against clickjacking and helping to ensure that a site's pages will be loaded over HTTPS. <br>
+In this guide we'll start by describing how a CSP is delivered to a browser and what it looks like at a high level. <br>
+Then we'll describe how it can be used to: <br>
+<ol>
+  <li><span>Control which resources are loaded</span>, to protect against XSS.</li>
+  <li><span>Restrict embedding</span>, to protect against clickjacking.</li>
+  <li><span>Upgrade insecure requests</span>, to help ensure that all resources are served over HTTPS.</li>
+  <li><span>Require the use of trusted types</span>, to help defend against client-side XSS.</li>
+</ol></p>
 </body>
 </html> 
